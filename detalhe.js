@@ -13,15 +13,6 @@ function preencheDetalhes(id){
     .then(produto=>{
         console.log(produto)
         
-        /*reating_icons = ''
-        integerRate = Math.round(produto.rating.rate);
-        for(let i=0; i<integerRate; i++){
-            rating_icons += ``
-        }
-        for(let i=0; i<5-integerRate; i++){
-            reating_icons += ``
-        }*/
-        
         product_detail=
             `<div class="produto">
             <img style="width:250px; height: 300px" src=${produto.image} alt="Teste">
